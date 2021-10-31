@@ -233,7 +233,7 @@
                     $the_loai='Du lịch mạo hiểm';
                   } 
                   if($the_loai=='tam_linh'){
-                    $the_loai='Du lịch tâm linh';
+                    $the_loai='Di lịch tâm linh';
                   }
                   $sql=" SELECT * FROM `tbl_tour` WHERE `loai_hinh` LIKE '".$the_loai."' ";
 
